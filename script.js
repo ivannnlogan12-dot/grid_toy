@@ -25,7 +25,7 @@ const grid = document.getElementById('grid');
     if (Math.random() < INVERT_PROBABILITY) {
      cell.classList.add("black");
     }
-
+    //add black square
      
     // Handle both click and drag events
     cell.addEventListener('mousedown', () => {
